@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: "/home/ghost/Dev/Sandbox/ci/circle-ci"
+    working_directory: "~/circle-ci"
     docker:
       - image: circleci/node:7
     steps:
